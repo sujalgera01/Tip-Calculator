@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	height: 500px;
+	width: 350px;
+	margin: 100px auto;
+	background: #ccc;
+	border: 2px solid #000;
+	border-radius: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background: #3B3B98;
+	color: #fff;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+
+p{
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px; 
+	font-size: 25px;
+}
+
+input{
+
+	margin-left: 90px;
+	width: 150px;
+	padding: 3px;
+	border: 1px solid black;
+}
+
+input::placeholder{
+	text-align: center;
+}
+
+.dropdown{
+	margin-left: 90px;
+	border: 1px solid black;
+}

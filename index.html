@@ -12,29 +12,32 @@
 		<div class="main">
 			<form>
 				<p>Enter your Bill Amount</p>
-				<input class="amt" type="text" placeholder="Amount" required> Rs
+				<input id="amt" type="text" placeholder="Amount" required> Rs
 
 				<p>Rate the Service</p>
-				<select class="dropdown">
+				<select id="dropdown">
 					<option disabled selected>Choose the Category</option>
 					<option value="0.3">30% - Outstanding</option>
-					<option value="0.2">20% - Outstanding</option>
-					<option value="0.15">15% - Outstanding</option>
-					<option value="0.1">10% - Outstanding</option>
-					<option value="0.05">5s% - Outstanding</option>
+					<option value="0.2">20% - Better</option>
+					<option value="0.15">15% - Good</option>
+					<option value="0.1">10% - OK</option>
+					<option value="0.05">5s% - Bad</option>
 
 				</select>
 
 				<p>Number of People</p>
-				<input class="ppl" type="text" required placeholder="value">
+				<input id="ppl" type="text" required placeholder="value">
 				<div class="row">
-				<button type="button" class="calc" >Calculate</button>
+				<button type="button" id="calc" >Calculate</button>
 			</div>
 			</form>
 
 		</div>
 
-
+		<div id="totalTip">
+    	<sup>Rs</sup><span id="tip">0.00</span>
+    	<small id="each">each</small>
+  </div>
 
 	</div>
 

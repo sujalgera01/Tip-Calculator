@@ -39,6 +39,7 @@ input{
 	width: 150px;
 	padding: 3px;
 	border: 1px solid black;
+	border-radius: 6px;
 }
 
 input::placeholder{
@@ -48,4 +49,20 @@ input::placeholder{
 .dropdown{
 	margin-left: 90px;
 	border: 1px solid black;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.calc{
+	margin: 45px;
+	margin-left: 120px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 10px;
+	box-shadow: none;
+}
+
+.calc:hover {
+	background: #00d2d3;
+	border-color: #00d2d3;
 }

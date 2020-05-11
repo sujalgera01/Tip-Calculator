@@ -46,14 +46,14 @@ input::placeholder{
 	text-align: center;
 }
 
-.dropdown{
+#dropdown{
 	margin-left: 90px;
 	border: 1px solid black;
 	border-radius: 6px;
 	cursor: pointer;
 }
 
-.calc{
+#calc{
 	margin: 45px;
 	margin-left: 120px;
 	padding: 10px;
@@ -62,7 +62,7 @@ input::placeholder{
 	box-shadow: none;
 }
 
-.calc:hover {
+#calc:hover {
 	background: #00d2d3;
 	border-color: #00d2d3;
 }

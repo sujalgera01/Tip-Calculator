@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	background: #dfe6e9;
+}
+
 .container {
 	height: 550px;
 	width: 350px;
@@ -63,8 +67,9 @@ input::placeholder{
 }
 
 #calc:hover {
-	background: #00d2d3;
-	border-color: #00d2d3;
+	background: #0984e3;
+	border-color: #0984e3;
+	font-size: 16px;
 }
 
 #totalTip {

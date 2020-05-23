@@ -46,6 +46,12 @@ input{
 	border-radius: 6px;
 }
 
+input:hover,
+#dropdown:hover {
+	width: 155px;
+	border: 1.5px solid black;
+}
+
 input::placeholder{
 	text-align: center;
 }
